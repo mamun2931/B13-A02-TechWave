@@ -394,10 +394,11 @@ footer {
 
            .section-banner  {
                 background-size: 100%;
+                height: 550px;
             }
     .banner-section {
      max-width: 550px;
-       height: 558px;
+        height: 500px;
       padding-top: 0;
 
 }
@@ -456,7 +457,9 @@ footer {
 
 footer {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-color: #250D44;
+    
 }
 
 .footer-section {
