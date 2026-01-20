@@ -311,7 +311,7 @@ nav h2 {
      }
 
 
-                                            /* main section 3 */
+                                            /* main section 4 */
 
     .host-section {
         max-width: 1200px;
@@ -448,13 +448,13 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1 , 1fr);
-    gap: 20px;
-    
+    padding: 20px;
     
 }
 
 .host-section {
     margin: 50px auto;
+    padding: 20px;
 }
 
 .footer-section h1 {
