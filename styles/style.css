@@ -31,6 +31,10 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+    .display-2 {
+                visibility: hidden;
+            }
 nav ul {
     display: flex;
     list-style: none;
@@ -374,3 +378,76 @@ footer {
     color: #ffffff;
     margin-top: 32px;
 }
+
+    @media screen and (max-width: 576px){
+        
+            .hide {
+                display: none !important;
+            }
+            .hide-2 {
+                    visibility: visible;
+            }
+
+            nav {
+                justify-content: space-around;
+            }
+
+           .section-banner  {
+                background-size: 100%;
+                
+            }
+    .About-section-rank {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+    .margin-bottom {
+        margin-bottom: 2rem;
+    }
+
+    .Podcast-section-content ,.episodes-card-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    
+}
+
+.host-section {
+    margin: 50px auto;
+}
+
+.footer-section h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+    .host-section-content {
+    display: flex;
+    flex-direction: column;
+    height: 31.25rem;
+    text-align: center;
+    gap: 1rem;
+}
+
+
+footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-section {
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-icon {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.footer-icon a {
+    margin-bottom: 32px;
+    margin-right:1rem;
+    color: #ffffff92;
+}
+    }
