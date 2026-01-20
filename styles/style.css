@@ -394,8 +394,29 @@ footer {
 
            .section-banner  {
                 background-size: 100%;
-                
             }
+    .banner-section {
+     max-width: 550px;
+       height: 558px;
+      padding-top: 0;
+
+}
+
+.hero-circle {
+    width: 15rem;
+}
+.banner-section-img-microphone {
+    width: 5rem;
+    position: relative;
+    left: -100px;
+    top: -70px;
+}
+.new-section {
+    position: relative;
+    top: -220px;
+    right: -95px;
+}
+
     .About-section-rank {
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
@@ -408,6 +429,8 @@ footer {
     .Podcast-section-content ,.episodes-card-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    gap: 20px;
     
     
 }
