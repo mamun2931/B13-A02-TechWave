@@ -20,7 +20,24 @@
         font-weight: 600;
         border: none;
         cursor: pointer;
+
+}                               
+                                        /* animation */
+
+        .microphone-an {
+            animation: mic 3s ease-in-out 1s infinite alternate;
+            -webkit-animation: mic 2s ease-in-out 1s infinite alternate;
 }
+
+            @keyframes mic {
+                0% {
+                    transform: rotate(380deg);
+}
+
+            }
+
+
+
                                     /* header  */
 
 nav {
